@@ -1,0 +1,46 @@
+.container{
+    height: 90vh;
+    background-image: url(../../../img/wall.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.tit{
+    margin: 0 auto;
+    width: 75%;
+}
+.titulo{
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    font-size: 10vh;
+    line-height: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    flex-direction: row-reverse;
+    text-align: right;
+    z-index: 2;
+}
+.titulo .direita{
+    font-size: 2.5vh;
+    width: 30%;
+    line-height: normal;
+    text-align: left;
+    font-family: poppins;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.titulo p{
+    font-family: last;
+}
+.particulas{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../../../img/particulaa.gif);
+    background-size: cover;
+    position: relative;
+    filter: blur(1vh) brightness(15%);
+}

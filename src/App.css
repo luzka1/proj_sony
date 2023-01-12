@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: poppins;
+  src: url(./fontes/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-l;
+  src: url(./fontes/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: last;
+  src: url(./fontes/Press\ Gothic\ SC.ttf);
+}
+.app{
+  background-color: rgb(15, 15, 15);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:none;
+  font-family: poppins;
+  transition: 200ms all;
+  scrollbar-width: thin;         
+  scrollbar-color: blue orange;
+}
+*::-webkit-scrollbar {
+  width: 1.5vh;              
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(24, 24, 31);      
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(56, 56, 56);   
+  border: 0.4vh solid rgb(19, 15, 39); 
+}

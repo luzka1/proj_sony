@@ -1,0 +1,52 @@
+.container{
+
+    color: white;
+    height: 70vh;
+    margin-top: 5%;
+}
+.titulo{
+    font-size: 3vh;
+     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: last;
+    letter-spacing: 0.1vw;
+    font-size: 5vh;
+}
+.conteudo{
+    display: flex;
+    gap: 10vw;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.box{
+    border: 0.2vh solid rgba(117, 117, 117, 0.253);
+    border-radius: 0.3vw;
+    box-shadow: 0 0 0.5vh 0 rgb(0, 0, 0);
+    width: 50%;
+    height:40vh;
+}
+.foto1,.foto2{
+    height: 50%;
+    background-image: url(../../../img/god.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+}
+.foto2{
+    background-image: url(../../../img/horizon.jpg);
+}
+.titulo2{
+    font-size: 3vh;
+    text-align: center;
+    padding: 1%;
+}
+.subtit{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6vh;
+    
+}
