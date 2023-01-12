@@ -1,0 +1,35 @@
+.container{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(10, 10, 10);
+    margin-top: 5%;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.footer nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer nav .logo{
+    font-family: last;
+    line-height: 3vh;
+    font-size: 4vh;
+}
+
+.footer nav .logo p{
+    font-family: last;
+    text-align: right;
+    font-size: 3vh;
+}
+.coded{
+    text-align: center;
+    
+}

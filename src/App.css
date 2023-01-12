@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: poppins;
+  src: url(./fontes/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-l;
+  src: url(./fontes/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: last;
+  src: url(./fontes/Press\ Gothic\ SC.ttf);
+}
+.app{
+  background-color: rgb(15, 15, 15);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:none;
+  font-family: poppins;
+  transition: 200ms all;
+  scrollbar-width: thin;         
+  scrollbar-color: blue orange;
+}
+*::-webkit-scrollbar {
+  width: 1.5vh;              
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::-webkit-scrollbar-track {
+  background: rgb(24, 24, 31);      
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(56, 56, 56);   
+  border: 0.4vh solid rgb(19, 15, 39); 
 }

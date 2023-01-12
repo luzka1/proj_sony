@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    background-image: url(../../../img/partI.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+}
+.innerContainer{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    display: flex;
+}
+.titulo{
+    font-family: last;
+    font-size: 10vh;
+    text-align: left;
+    margin-top: -5%;
+}
+.subtit{
+    font-size: 2.5vh;
+    line-height: normal;
+    font-family: poppins;
+    width: 80%;
+}
+.imgfundo{
+    background-image: url(../../../img/joellie.png);
+    height: 99vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: absolute;
+    left: 49%;
+    margin-top: -10%;
+}
+
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-size: 2vh;
+}
+.foto{
+    margin: 5%;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../../../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.2vw;
+}
