@@ -19,9 +19,7 @@
   padding: 0;
   box-sizing:none;
   font-family: poppins;
-  transition: 200ms all;
-  scrollbar-width: thin;         
-  scrollbar-color: blue orange;
+  transition: 200ms all;    
 }
 *::-webkit-scrollbar {
   width: 1.5vh;              

@@ -50,7 +50,7 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    
+    position: relative;
 }
 
 .vinganca {
@@ -77,7 +77,7 @@
     width: 100%;
     background-image: url(../../../img/abby.png);
     background-size: cover;
-    background-position: -20%;
+    background-position: -25%;
     background-repeat: no-repeat;
 }
 
@@ -104,7 +104,6 @@
     display: flex;
 }
 
-
 .conTitulo {
     text-align: right;
     color: #fff;
@@ -127,4 +126,24 @@
 
 .conSubtexto{
     text-align: right;
+}
+
+@media (max-width:1200px){
+    .container{
+        height: auto;
+    }
+
+    .personagens{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .fotoellie{
+        background-position: 10%;
+    }
+
+    .fotoabby{
+        background-position: 20%;
+    }
 }

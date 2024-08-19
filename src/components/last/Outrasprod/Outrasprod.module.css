@@ -1,12 +1,15 @@
 .container{
-
     color: white;
-    height: 70vh;
-    margin-top: 5%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .titulo{
     font-size: 3vh;
-     height: 20%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,20 +19,22 @@
 }
 .conteudo{
     display: flex;
-    gap: 10vw;
     width: 80%;
-    justify-content: space-between;
     margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .box{
     border: 0.2vh solid rgba(117, 117, 117, 0.253);
     border-radius: 0.3vw;
     box-shadow: 0 0 0.5vh 0 rgb(0, 0, 0);
-    width: 50%;
-    height:40vh;
+    width: 45%;
+    max-height: fit-content;
 }
 .foto1,.foto2{
-    height: 50%;
+    min-height: 200px;
+    width: 100%;
     background-image: url(../../../img/god.jpg);
     background-size: cover;
     background-position: center;
@@ -48,5 +53,23 @@
     width: 90%;
     margin: 0 auto;
     font-size: 1.6vh;
-    
+    padding: 0 0 2% 0;
+}
+
+@media (max-width:1200px){
+    .titulo{
+        padding: 5% 0 0 0;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 0 0 5% 0;
+    }
+
+    .box{
+        width: 80%;
+    }
 }

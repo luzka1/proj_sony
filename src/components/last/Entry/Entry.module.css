@@ -23,7 +23,7 @@
     text-align: right;
     z-index: 2;
 }
-.titulo .direita{
+.direita{
     font-size: 2.5vh;
     width: 30%;
     line-height: normal;
@@ -43,4 +43,10 @@
     background-size: cover;
     position: relative;
     filter: blur(1vh) brightness(15%);
+}
+
+@media (max-width:1200px){
+    .direita{
+        display: none;
+    }
 }

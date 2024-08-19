@@ -9,7 +9,6 @@ import Footer from "../components/last/Footer/Footer";
 
 function Last() {
   return (
-
     <div className={styles.fundo}>
       <Header />
       <Entry />
